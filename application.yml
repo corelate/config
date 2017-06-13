@@ -1,3 +1,9 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+
 eureka:
   instance:
     hostname: discovery
