@@ -5,9 +5,6 @@ spring:
         enabled: true
 
 eureka:
-  instance:
-    hostname: ${CF_INSTANCE_IP:localhost}
-    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port}}}
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
