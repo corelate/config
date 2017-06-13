@@ -6,11 +6,8 @@ spring:
 
 eureka:
   instance:
-    hostname: discovery
+    hostname: ${CF_INSTANCE_IP:localhost}
+    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port}}}
   client:
-    registerWithEureka: false
-    fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-  server:
-      waitTimeInMsWhenSyncEmpty: 0
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
