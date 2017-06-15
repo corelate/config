@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    user:
+      url: http://127.0.0.1
+
+ribbon:
+  eureka:
+    enabled: false
+
+server:
+  port: 8002
