@@ -1,11 +1,11 @@
 zuul:
   routes:
     user:
-      url: http://127.0.0.1:8081
+      path: /api/user/**
 
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
 
 server:
   port: 8002
