@@ -20,4 +20,5 @@ sms:
     key:
     connection:
     url:
+      domain:
       path:
