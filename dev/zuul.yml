@@ -1,5 +1,8 @@
 zuul:
   routes:
+    notification:
+      path: /api/notification/**
+      url: http://127.0.0.1:8003
     user:
       path: /api/user/**
       url: http://127.0.0.1:8081
