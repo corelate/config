@@ -15,7 +15,7 @@ mail:
     enabled: '{cipher}AQAiac+OSm6EQcGv9Z+w0ckmlyCC+DvUuvQobKYdsoY5DDitoFaWji5BFG4EQNzubJnx4zc5K9RVd/95+pFwql8RD73SxEQen2MlXJLdNhFR/gO2jW12MQcybUewY8OxRtqWw+FHt5j9R3DOvhUiXs9Y893ysFawutlfJcOAzRim5A5UZ3Pd6BuNiqFzd0ef8FhhsLUNckMiGgCJEse6akdkGSbKWBt03QJjxvp479lkQSBq6Gs6bW1NkjEa6WWgCORs/9HjIg25dWkGuFNA7B3ytazxrc9A3JPFdTlSh9nsiUcRyB33ovyxwwDU1Cs9xDxxhVKhhljfQwLO14rH4J6KHUQDSQ04YbwjThPGvGWJw4WnOrTQZG3YB1wWgS4xvc0='
 
 sms:
-  semaphore
+  semaphore:
     enabled: N
     key:
     connection:
