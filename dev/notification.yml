@@ -20,4 +20,4 @@ sms:
     key:
     connection:
     url:
-    path:
+      path:
