@@ -16,10 +16,10 @@ mail:
 
 sms:
   semaphore:
-    enabled: N
-    sender:
-    key:
-    connection:
+    enabled: Y
+    sender: CORELATE
+    key: '{cipher}AQCZ3wQzvf91fxhsj7qeH1l7N1Gw+gKSMRUz1uSlyKjzc5sWzO4jFoxt6mGq3BZdjM2V28CreEazV0uqOilGKRl2OdbVzycgA7gVS9DRIl46SjJHjHt/bzmlWJIu6+EqnCKKsdIrzpOvIgh46pxWbsGsqRlUpgiNy7aJNBTYeolA4g9xPPcDKp3hNwcJpmL4CYSFduTmcBgZvS431xMF9HhLtEZnsD0VRfoFL4bVs0Gn8nyryTlh3jFMSAIYniGmlTAz8qp2jpptUC38/rwBXUCBwb9pLUhEBw27M8+wFZpsxHOu3W9jpeDTjCg9C++g2s39rxGvgcOTZywfbZ4gmsA9uXfFFx/z91H6MinLwL6YgLKfFiUe07/jonYNiK18+0AOg+eMSiUNscDNaon8A436'
+    connection: http
     url:
-      domain:
-      path:
+      domain: www.semaphore.co
+      path: /api/sms
