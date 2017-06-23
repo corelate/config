@@ -21,3 +21,11 @@ spring:
 logging:
   level:
     com.beacon.corelate: DEBUG
+
+
+user:
+  activation:
+    mail:
+      enabled: false
+    sms:
+      enabled: false
