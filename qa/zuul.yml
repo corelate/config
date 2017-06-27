@@ -4,6 +4,8 @@ zuul:
       path: /api/notification/**
     user:
       path: /api/user/**
+    cms:
+      path: /api/cms/**
 
 ribbon:
   eureka:
