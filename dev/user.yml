@@ -12,6 +12,8 @@ user:
     empty-password: Password should not be empty when mail activation is disabled
   activation:
     mail:
+      enabled: true
       token-length: 32
+      template: MAIL_TEMPLATE
     sms:
       token-length: 4
