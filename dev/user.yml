@@ -16,4 +16,6 @@ user:
       token-length: 32
       template: MAIL_TEMPLATE
     sms:
+      enabled: true
       token-length: 4
+      template: SMS_TEMPLATE
