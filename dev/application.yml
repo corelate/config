@@ -22,13 +22,8 @@ logging:
   level:
     com.beacon.corelate: DEBUG
 
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 60000
+ribbon:
+  ReadTimeout: 60000
 
 
 user:
