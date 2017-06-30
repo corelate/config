@@ -14,6 +14,7 @@ user:
     mail:
       enabled: true
       token-length: 32
+      header: EMAIL ACTIVATION
       template: MAIL_TEMPLATE
     sms:
       enabled: true
