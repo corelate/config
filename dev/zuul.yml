@@ -9,6 +9,9 @@ zuul:
     cms:
       path: /api/cms/**
       url: http://127.0.0.1:8082
+    catalog:
+      path: /api/catalog/**
+      url: http://127.0.0.1:8083
 
 ribbon:
   eureka:

@@ -6,6 +6,8 @@ zuul:
       path: /api/user/**
     cms:
       path: /api/cms/**
+    catalog:
+      path: /api/catalog/**
 
 ribbon:
   eureka:
