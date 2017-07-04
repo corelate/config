@@ -1,0 +1,6 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: '{cipher}AQB80NcKjwOWfFx+zJmscIzvJsr9koRqTSMPs4L848I78piSajRr9UZXTmK5dR+uQsFKn7Q/Tf3s3V7r0sWMYl6RnN5jEXo5gr+yKyP2YbKwZqtDdRA2aY6shpKmpkT7ttEmdhwCLWaMdk2OnhJLDKIZVk/0lXXFdE27QaHZKsMDO60ESwPWdu33R8i+Q8zlHqm1i4i5724t2NE1/ONqljtJLk2mge2UUQINGp45yXuG6rePwJk/sueqVoI1kBIe8SVyRXDU2iKB4HxPhHbxw3iQtUgt8eP/0XiT/mBlCCipU9gjfQVA8OC6hKYlSeeOLD13a/Ln3W3aF1anDn553WcRzjNWMG8+jDg7qsESKMZMS24xkY1upu4xsBoQvsIqSoHQ1v9odZFm4v55blErUsrJ'
