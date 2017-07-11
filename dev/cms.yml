@@ -8,7 +8,4 @@ spring:
 file:
   storage:
     enabled: true
-    domain: http://127.0.0.1:9000
-    accessKey: VV2V7IK1NOEY636AGLKO
-    secretKey: iUlGKax02hsgClCLPCpy50DpD6ltW1kOV4pYcT2A
     bucketName: '{cipher}AQCG8+0RR3/N9KZFBxwvLFWGJUbl3bTeEgRji5pD6agnhccV1Ur1d2DjrFfjuFRQowRLbfYrGtiTReJhH/cDFWQ9bdwIX6/9W8QWxpb/WLl+YpfTZ4MiQ/du8fHeinAksBjnsCYQSaZFH3RwAuewWmaX6HMBMCI30qQELY8+YKwIvbDuN4XSDgVXWZUFfQs8YdsRrU4s4yYc2VmsA643uTX1hDSlItZkS3I9MjQNz0uQudYAJ1Dvu53tYaM3Bupe8rd19RBVLI1DwRpN3Klq8XaRREt+FyYiyPzGHVTFTfg5mvsAWO9MZmT/No176Ple1ZKTQvEXN5k3d/wLCxBqyBEDOkDRkzs7FcbmlSo1NhKn9WAxB/pRkuxUUed2QzFHemzGQYLamVbkMw84X1+kW6XZ'
