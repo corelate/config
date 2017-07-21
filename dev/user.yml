@@ -17,7 +17,7 @@ user:
       header: EMAIL ACTIVATION
       template: MAIL_TEMPLATE
     sms:
-      enabled: true
+      enabled: false
       token-length: 4
       template: SMS_TEMPLATE
 
