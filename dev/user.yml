@@ -28,3 +28,7 @@ cms:
 notification:
   ribbon:
     listOfServers: http://localhost:8003
+
+bpmn:
+  ribbon:
+    listOfServers: http://localhost:9999
