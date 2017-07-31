@@ -8,6 +8,10 @@ zuul:
       path: /api/cms/**
     catalog:
       path: /api/catalog/**
+    workflow:
+      path: /api/workflow/**
+    rules:
+      path: /api/rules/**
 
 ribbon:
   eureka:

@@ -12,6 +12,12 @@ zuul:
     catalog:
       path: /api/catalog/**
       url: http://127.0.0.1:8083
+    workflow:
+      path: /api/workflow/**
+      url: http://127.0.0.1:8084
+    rules:
+      path: /api/rules/**
+      url: http://127.0.0.1:8085
 
 ribbon:
   eureka:
