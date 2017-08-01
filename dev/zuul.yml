@@ -1,3 +1,6 @@
+server:
+  port: 8002
+
 zuul:
   routes:
     notification:
@@ -22,6 +25,3 @@ zuul:
 ribbon:
   eureka:
     enabled: false
-
-server:
-  port: 8002
