@@ -1,9 +1,19 @@
 server:
   port: 8004
 
-spring:
+authentication:
   datasource:
     url: '{cipher}AQCNrOV3IgcnyYr2/03oxB9Bju+HLLsm3i90SvgF6esCmc6NRkAbM5k+qVoT4uXdyRgoh2W0dpdVl/LlHXZYGPNXE7RFJC/Kqn/6wEl6as+wKLCAUo++xeqmpTdpuCyVuJGOfSN3sxNeSmBSCkofAtzZ1d1ncAmalhUcz4qenbhRQYsBPxasFHRaENFz1zJaNdy6n79dLbyoqifCGHALDXO1jVrWNHNvCFQUKoFhiB2GmiZlRtFRegzBHPFJyMAC6rUXRK+gAWDWXi9pbJK6ys0b70Mes1OIrkgdiCUEEsPw/eadZXBwRoiHaakXmPnTzTdx+EK6hbXQP5RhdzZqPD/zFPC5QDVQEeD09cn21qMq2QRzGvnAqUl9/7X54A0Oqsuh/73AOpir62cr+xafruxw+73+g0sunbBIygU/7c68cjg38C+BfKm4R/5bjX4mKYU='
+    username: '{cipher}AQBHp6PUNIGKcTApxmj8uyV9PGPH5JYoAsuu1FEK4CRMTBKeFNO0XLrhWgjcafZvRiLRjS7miNbNbkHMvb7+3+twrO8Q4IOeE0XdJrlp6Of0EoQ1iKadLlS5oXHbyAgCe4IrO4pCuq+QHe0kXZposL3e13rwECFdR5jjmErJtyVoiEcaH7DbZBTK8WmEMdIQ5xBTy36eUAKkCg2F4QMcllfC1+iwZMqaD1vL5gxmG3rTq1TJGbwofgTCZqUBqil8t3w9xTOLIIUVkkSKyhAs+4QL2KXtoHtNH5I47Wf4EeMyH75Jk6Q3klI+5bOZBUBQaQDLHH4cAe5tvm7XbMcCoodGV5c2TRzls9OdLnNsdUiVsycg4yiBU6mMbfseY4YpOK4='
+    password: '{cipher}AQABZ+HqXarT3R8VKJaeiZfrrrH6FVRO1YUPyCblMnJwxdlZIhHOfUeHFpoRjQ+3/Hwz35R3jB7jw8oI6pXzgrxYN+621+7A91n+MrSkR2AOMhh+ruua/gh49CmcfR+ARm6a0oMt/CVSKGWSvTlbQPjc8gFvP0gAyGsJ6JVU1CKCzX8eTYhgnIXA8jPgp0NVKkyrzSC493FHQkDUCGBH2MGG+x4fnltthNlWOPKhLdB8dvvfghybfxj07e0IWNgVIS2V8h5VSt9vKODXAuQ7Q3YL81ckdr7RiQKjD2gcwPHzavOXXmWnwyTJ58JdxsogZkjeAeGJLkdSRZLxQHCswmDrQSxb5ETg0RmoPlpmeim0KqtJR6IgrcUL3qzqLhlnaTg='
+    driverClassName: '{cipher}AQAtvLXremhlrIY5LUEZO34epba/47/fqYlrLiK/uKReVh06SNOfp1Puz+zF/mMaPzvyiSLsL3/mzT2FUSCzq/tyX2ZfI82FmqCwuQrtDYhX+6VUmRGpt/Zocx8PuMs/WK/pBJ52tVuIQ0GpStKr/GMJgmUPrXz5RmFpz2NTkyIqCUuWV8HKn93hBVVtC477tDW6p0W+4AgmezB2prN2gCYZlbBcBc044CLdxgXQVba9fmAZcSMGKnkCuJS3bD3OCvTzUdarZJ7Dr2xPzekDruCGLYLNkXRhMHheoxflvty7i1s2sBCTVfFkG23P2pX/keKm9VP1vDdDFcqNf6FBUs16Dy68pqBNY1eIVbjc9uhEeY0jx/+nfIe1spAbZmVKSzgwC6d/E19BnfkIEcjck+j0'
+    hikari:
+      maxIdleTime: 20000
+      idleTimeout: 20000
+    cachePrepStmts: true
+    prepStmtCacheSize: 250
+    prepStmtCacheSqlLimit: 2048
+    connection-test-query: SELECT 1
 
 
 user:
