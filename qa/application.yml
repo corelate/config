@@ -39,3 +39,8 @@ oauth:
     url: /api/authentication/oauth/check_token
     clientId: corelate_password_client
     clientSecret: 123qwe
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: /api/authentication/oauth/check_token
