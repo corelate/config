@@ -21,3 +21,8 @@ ribbon:
 
 server:
   port: 8002
+
+proxy:
+  auth:
+    routes:
+      user: oauth2
