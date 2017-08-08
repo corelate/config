@@ -32,3 +32,9 @@ file:
     domain: http://127.0.0.1:9000
     accessKey: VV2V7IK1NOEY636AGLKO
     secretKey: iUlGKax02hsgClCLPCpy50DpD6ltW1kOV4pYcT2A
+
+oauth:
+  server:
+    url: /api/authentication/oauth/check_token
+    clientId: corelate_password_client
+    clientSecret: 123qwe
