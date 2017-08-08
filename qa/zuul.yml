@@ -1,5 +1,7 @@
 zuul:
   routes:
+    authentication:
+      path: /api/authentication/**
     notification:
       path: /api/notification/**
     user:

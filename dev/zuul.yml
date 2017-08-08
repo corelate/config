@@ -3,6 +3,9 @@ server:
 
 zuul:
   routes:
+    authentication:
+      path: /api/authentication/**
+      url: http://127.0.0.1:8004
     notification:
       path: /api/notification/**
       url: http://127.0.0.1:8003
