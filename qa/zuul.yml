@@ -12,6 +12,8 @@ zuul:
       path: /api/workflow/**
     rules:
       path: /api/rules/**
+  debug:
+    request: true
 
 ribbon:
   eureka:
@@ -24,7 +26,3 @@ proxy:
   auth:
     routes:
       user: oauth2
-
-zuul:
-  debug:
-    request: true
