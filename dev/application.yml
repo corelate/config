@@ -45,6 +45,8 @@ file:
     secretKey: iUlGKax02hsgClCLPCpy50DpD6ltW1kOV4pYcT2A
 
 security:
+  basic:
+    enabled: false
   oauth2:
     resource:
       tokenInfoUri: http://127.0.0.1:8004/api/authentication/oauth/check_token
