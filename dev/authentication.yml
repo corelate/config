@@ -1,5 +1,6 @@
 server:
   port: 8004
+  contextPath: /authentication
 
 authentication:
   datasource:
