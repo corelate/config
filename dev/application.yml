@@ -21,6 +21,7 @@ spring:
 logging:
   level:
     com.beacon.corelate: DEBUG
+    org.springframework.security: TRACE
 
 ribbon:
   ReadTimeout: 60000
