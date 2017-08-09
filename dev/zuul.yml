@@ -24,6 +24,9 @@ zuul:
     rules:
       path: /api/rules/**
       url: http://127.0.0.1:8085
+  include-debug-header: true
+  debug:
+    request: true
 
 ribbon:
   eureka:
