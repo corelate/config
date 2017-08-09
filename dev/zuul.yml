@@ -2,6 +2,7 @@ server:
   port: 8002
 
 zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
   routes:
     authentication:
       path: /api/authentication/**
@@ -31,3 +32,8 @@ zuul:
 ribbon:
   eureka:
     enabled: false
+
+proxy:
+  auth:
+    routes:
+      user: oauth2

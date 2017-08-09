@@ -1,4 +1,5 @@
 zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
   routes:
     notification:
       path: /api/notification/**
