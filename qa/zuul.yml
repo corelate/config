@@ -24,3 +24,7 @@ proxy:
   auth:
     routes:
       user: oauth2
+
+zuul:
+  debug:
+    request: true
