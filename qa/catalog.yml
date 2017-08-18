@@ -13,6 +13,6 @@ spring:
             indexBase: lucene/indexes
 
 lucene:
-  queryparser:
-    leading_wildcard: true
+  queryParser:
+    leadingWildcard: true
 
