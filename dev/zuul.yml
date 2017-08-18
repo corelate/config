@@ -37,3 +37,5 @@ proxy:
   auth:
     routes:
       user: oauth2
+      cms: oauth2
+      notification: oauth2
