@@ -11,3 +11,6 @@ spring:
           default:
             directory_provider: filesystem
             indexBase: lucene/indexes
+lucene:
+  queryparser:
+    leading_wildcard: true
