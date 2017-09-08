@@ -25,6 +25,9 @@ zuul:
     rules:
       path: /api/rules/**
       url: http://127.0.0.1:8085
+    shopping-cart:
+      path: /api/shopping-cart/**
+      url: http://127.0.0.1:8086
   include-debug-header: true
   debug:
     request: true

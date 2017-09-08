@@ -26,11 +26,11 @@ user:
     reset:
       mail:
         enabled: true
-        header: PASSWORD UPDATE
-        template: USER_PASSWORD_MAIL_TEMPLATE
+        header: PASSWORD RESET
+        template: USER_PASSWORD_RESET_MAIL_TEMPLATE
       sms:
         enabled: false
-        template: USER_PASSWORD_SMS_TEMPLATE
+        template: USER_PASSWORD_RESET_SMS_TEMPLATE
   exception:
     empty-password: Password should not be empty when mail activation is disabled
   activation:
