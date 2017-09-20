@@ -28,6 +28,9 @@ zuul:
     shopping-cart:
       path: /api/shopping-cart/**
       url: http://127.0.0.1:8086
+    bpmn:
+      path: /bpmn/**
+      url: http://127.0.0.1:9999
   include-debug-header: true
   debug:
     request: true
