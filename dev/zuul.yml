@@ -45,3 +45,11 @@ proxy:
       user: oauth2
       cms: oauth2
       notification: oauth2
+
+user:
+  ribbon:
+    listOfServers: http://localhost:8081/
+
+config:
+  ribbon:
+    listOfServers: http://localhost:8001/
