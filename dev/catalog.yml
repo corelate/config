@@ -14,3 +14,7 @@ spring:
 lucene:
   queryParser:
     leadingWildcard: true
+
+notification:
+  ribbon:
+    listOfServers: http://localhost:8003
